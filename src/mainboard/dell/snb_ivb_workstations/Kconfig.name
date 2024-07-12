@@ -1,7 +1,12 @@
 ## SPDX-License-Identifier: GPL-2.0-only
 
-config BOARD_DELL_OPTIPLEX_9010
-	bool "OptiPlex 9010 SFF"
+config BOARD_LANIKAI_SFF
+	bool "Lanikai SFF"
+	help 
+		This board is used by OptiPlex 7010/9010 SFF.
 
-config BOARD_DELL_PRECISION_T1650
-	bool "Dell Precision T1650"
+config BOARD_LANIKAI_MT
+	bool "Lanikai MT"
+	help 
+                This board is used by OptiPlex 7010/9010 MT and Precision T1650. 
+                The OptiPlexes and Precision use different PCH SKUs, but they use the same PCB.
