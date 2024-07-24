@@ -4,11 +4,11 @@
 
 const u32 cim_verb_data[] = {
 	0x10ec0269,	/* Codec Vendor / Device ID: Realtek */
-	0x1028052c,	/* Subsystem ID */
+	0x1028053a,	/* Subsystem ID */
 
 	11,		/* Number of 4 dword sets */
 
-	AZALIA_SUBVENDOR(0, 0x1028052c),
+	AZALIA_SUBVENDOR(0, 0x1028053a),
 	AZALIA_PIN_CFG(0, 0x12, AZALIA_PIN_CFG_NC(0)),
 	AZALIA_PIN_CFG(0, 0x14, 0x99130110),
 	AZALIA_PIN_CFG(0, 0x17, AZALIA_PIN_CFG_NC(0)),
