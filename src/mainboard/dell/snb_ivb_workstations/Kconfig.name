@@ -13,4 +13,4 @@ config BOARD_DELL_OPTIPLEX_9010_SFF
 	bool "OptiPlex 9010 SFF"
 
 config BOARD_DELL_PRECISION_T1650
-        bool "Precision T1650"
+	bool "Precision T1650"
